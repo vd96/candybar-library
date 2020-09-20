@@ -5,7 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.view.ContextThemeWrapper;
 import android.view.View;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 /*
  * CandyBar - Material Dashboard
@@ -32,8 +32,8 @@ class ContextHelper {
         Context context = view.getContext();
         if (context instanceof ContextThemeWrapper) {
             context = ((ContextThemeWrapper) view.getContext()).getBaseContext();
-        } else if (context instanceof CalligraphyContextWrapper) {
-            context = ((CalligraphyContextWrapper) view.getContext()).getBaseContext();
+        } else if (context instanceof ViewPumpContextWrapper) {
+            context = ((ViewPumpContextWrapper) view.getContext()).getBaseContext();
         }
         return context;
     }

@@ -54,8 +54,10 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 import uk.co.senab.photoview.PhotoViewAttacher;
+
+import io.*;
 
 /*
  * CandyBar - Material Dashboard
@@ -218,7 +220,7 @@ public class CandyBarWallpaperActivity extends AppCompatActivity implements View
     @Override
     protected void attachBaseContext(Context newBase) {
         LocaleHelper.setLocale(newBase);
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+        super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
     }
 
     @Override

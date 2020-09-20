@@ -25,7 +25,7 @@ import com.dm.material.dashboard.candybar.helpers.WallpaperHelper;
 import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 /*
  * CandyBar - Material Dashboard
@@ -95,7 +95,7 @@ public abstract class CandyBarMuzeiActivity extends AppCompatActivity implements
     @Override
     protected void attachBaseContext(Context newBase) {
         LocaleHelper.setLocale(newBase);
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+        super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
     }
 
     @Override

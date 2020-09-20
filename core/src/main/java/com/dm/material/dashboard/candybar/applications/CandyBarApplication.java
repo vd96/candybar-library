@@ -23,7 +23,9 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
+import io.github.inflationx.calligraphy3.CalligraphyConfig;
+import io.github.inflationx.calligraphy3.CalligraphyInterceptor;
+import io.github.inflationx.viewpump.ViewPump;
 
 /*
  * CandyBar - Material Dashboard
@@ -66,10 +68,20 @@ public abstract class CandyBarApplication extends Application implements Applica
         if (!ImageLoader.getInstance().isInited())
             ImageLoader.getInstance().init(ImageConfig.getImageLoaderConfiguration(this));
 
+        ViewPump.init(ViewPump.builder()
+                .addInterceptor(new CalligraphyInterceptor(
+                        new CalligraphyConfig.Builder()
+                                .setDefaultFontPath("fonts/Font-Regular.ttf")
+                                .setFontAttrId(R.attr.fontPath)
+                                .build()))
+                .build());
+
+        /*
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
                 .setDefaultFontPath("fonts/Font-Regular.ttf")
                 .setFontAttrId(R.attr.fontPath)
                 .build());
+         */
 
         //Enable or disable logging
         LogUtil.setLoggingTag(getString(R.string.app_name));

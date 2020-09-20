@@ -32,7 +32,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.Map;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 /*
  * CandyBar - Material Dashboard
@@ -74,7 +74,7 @@ public abstract class CandyBarSplashActivity extends AppCompatActivity implement
 
     @Override
     protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+        super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
     }
 
     @Override

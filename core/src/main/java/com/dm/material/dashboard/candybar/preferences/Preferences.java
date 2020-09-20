@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.dm.material.dashboard.candybar.R;
 import com.dm.material.dashboard.candybar.applications.CandyBarApplication;

@@ -4,9 +4,9 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.graphics.Point;
 import android.os.Build;
-import android.support.annotation.Nullable;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v7.view.ContextThemeWrapper;
+import androidx.annotation.Nullable;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.appcompat.view.ContextThemeWrapper;
 import android.view.View;
 
 import com.danimahardhika.android.helpers.core.ColorHelper;

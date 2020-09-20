@@ -2,8 +2,8 @@ package com.dm.material.dashboard.candybar.items;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
 
 import com.dm.material.dashboard.candybar.R;
 import com.dm.material.dashboard.candybar.preferences.Preferences;

@@ -2,8 +2,8 @@ package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.NonNull;
-import android.support.v7.graphics.drawable.DrawerArrowDrawable;
+import androidx.annotation.NonNull;
+import androidx.appcompat.graphics.drawable.DrawerArrowDrawable;
 
 import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.dm.material.dashboard.candybar.R;

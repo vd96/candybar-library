@@ -1,8 +1,8 @@
 package com.dm.material.dashboard.candybar.items;
 
 import android.graphics.Point;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
 
 /*
  * CandyBar - Material Dashboard

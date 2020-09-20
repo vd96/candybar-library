@@ -12,12 +12,12 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.graphics.Palette;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.app.ActivityCompat;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.palette.graphics.Palette;
 import android.transition.Transition;
 import android.view.MenuItem;
 import android.view.View;
@@ -56,8 +56,6 @@ import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListene
 
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 import uk.co.senab.photoview.PhotoViewAttacher;
-
-import io.*;
 
 /*
  * CandyBar - Material Dashboard

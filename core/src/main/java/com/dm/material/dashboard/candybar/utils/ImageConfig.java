@@ -2,7 +2,7 @@ package com.dm.material.dashboard.candybar.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.danimahardhika.android.helpers.core.FileHelper;
 import com.dm.material.dashboard.candybar.applications.CandyBarApplication;

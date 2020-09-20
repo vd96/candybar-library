@@ -1,6 +1,6 @@
 package com.dm.material.dashboard.candybar.items;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.dm.material.dashboard.candybar.activities.callbacks;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.dm.material.dashboard.candybar.activities.configurations.ActivityConfiguration;
 

@@ -1,6 +1,6 @@
 package com.dm.material.dashboard.candybar.applications;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 /**
  * Author: Dani Mahardhika

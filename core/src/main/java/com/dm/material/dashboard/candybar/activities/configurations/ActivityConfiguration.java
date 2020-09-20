@@ -1,6 +1,6 @@
 package com.dm.material.dashboard.candybar.activities.configurations;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 /*
  * CandyBar - Material Dashboard

@@ -1,8 +1,8 @@
 package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.view.ContextThemeWrapper;
+import androidx.annotation.NonNull;
+import androidx.appcompat.view.ContextThemeWrapper;
 import android.view.View;
 
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;

@@ -1,7 +1,7 @@
 package com.dm.material.dashboard.candybar.items;
 
 import android.content.ComponentName;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 /*
  * CandyBar - Material Dashboard

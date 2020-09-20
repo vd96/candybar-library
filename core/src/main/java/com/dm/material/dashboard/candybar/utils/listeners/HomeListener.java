@@ -1,6 +1,6 @@
 package com.dm.material.dashboard.candybar.utils.listeners;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.dm.material.dashboard.candybar.items.Home;
 

@@ -2,9 +2,9 @@ package com.dm.material.dashboard.candybar.activities.configurations;
 
 import android.content.Context;
 import android.graphics.Typeface;
-import android.support.annotation.ColorInt;
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
+import androidx.annotation.ColorInt;
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
 
 import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
 

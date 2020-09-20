@@ -1,8 +1,8 @@
 package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
-import android.support.design.internal.NavigationMenuView;
-import android.support.design.widget.NavigationView;
+import com.google.android.material.internal.NavigationMenuView;
+import com.google.android.material.navigation.NavigationView;
 import android.view.MenuItem;
 
 import com.dm.material.dashboard.candybar.R;
